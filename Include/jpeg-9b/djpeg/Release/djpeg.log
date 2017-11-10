@@ -1,0 +1,13 @@
+﻿  cdjpeg.c
+  djpeg.c
+  rdcolmap.c
+  wrbmp.c
+  wrgif.c
+  wrppm.c
+  wrrle.c
+  wrtarga.c
+  Generating code
+  All 296 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  djpeg.vcxproj -> C:\Users\Administrator\Desktop\Todo\svn_repos\trunk\jpeg-9b\djpeg\Release\djpeg.exe
+  djpeg.vcxproj -> djpeg\Release\djpeg.pdb (Full PDB)

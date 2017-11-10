@@ -1,0 +1,9 @@
+﻿  cdjpeg.c
+  jpegtran.c
+  rdswitch.c
+  transupp.c
+  Generating code
+  All 259 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  jpegtran.vcxproj -> C:\Users\Administrator\Desktop\Todo\svn_repos\trunk\jpeg-9b\jpegtran\Release\jpegtran.exe
+  jpegtran.vcxproj -> jpegtran\Release\jpegtran.pdb (Full PDB)

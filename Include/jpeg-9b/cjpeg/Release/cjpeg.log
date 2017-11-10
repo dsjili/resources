@@ -1,0 +1,13 @@
+﻿  cdjpeg.c
+  cjpeg.c
+  rdbmp.c
+  rdgif.c
+  rdppm.c
+  rdrle.c
+  rdswitch.c
+  rdtarga.c
+  Generating code
+  All 265 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  cjpeg.vcxproj -> C:\Users\Administrator\Desktop\Todo\svn_repos\trunk\jpeg-9b\cjpeg\Release\cjpeg.exe
+  cjpeg.vcxproj -> cjpeg\Release\cjpeg.pdb (Full PDB)
