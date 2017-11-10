@@ -1,0 +1,4 @@
+C:/Users/Administrator/Desktop/Todo/svnRoot/Shared/Gtest/CMakeFiles/gtest.dir
+C:/Users/Administrator/Desktop/Todo/svnRoot/Shared/Gtest/CMakeFiles/gtest_main.dir
+C:/Users/Administrator/Desktop/Todo/svnRoot/Shared/Gtest/CMakeFiles/ALL_BUILD.dir
+C:/Users/Administrator/Desktop/Todo/svnRoot/Shared/Gtest/CMakeFiles/ZERO_CHECK.dir

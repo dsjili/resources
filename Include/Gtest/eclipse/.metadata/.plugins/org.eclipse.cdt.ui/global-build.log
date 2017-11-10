@@ -1,0 +1,24 @@
+15:35:47 **** Clean-only build of configuration Lib_x86_x64_Mt_Debug for project Gtest ****
+make clean 
+rm -rf  ./src/gtest-all.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.d  ./src/gtest-all.d  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.d  /home/administrator/Proximus/Base/Library/Linux/Gtest_x86_x64_MtD.lib
+ 
+15:35:47 **** Incremental Build of configuration Lib_x86_x64_Mt_Debug for project Gtest ****
+make all 
+make: Warning: File `objects.mk' has modification time 0.021 s in the future
+Building file: /home/administrator/Proximus/External/Gtest/src/gtest-all.cc
+Invoking: GCC C++ Compiler
+g++ -I../../../include -I../../../src -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/gtest-all.d" -MT"src/gtest-all.d" -o "src/gtest-all.o" "/home/administrator/Proximus/External/Gtest/src/gtest-all.cc"
+Finished building: /home/administrator/Proximus/External/Gtest/src/gtest-all.cc
+ 
+Building file: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+Invoking: GCC C Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF".metadata/.plugins/org.eclipse.cdt.make.core/specs.d" -MT".metadata/.plugins/org.eclipse.cdt.make.core/specs.d" -o ".metadata/.plugins/org.eclipse.cdt.make.core/specs.o" "../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c"
+Finished building: ../.metadata/.plugins/org.eclipse.cdt.make.core/specs.c
+ 
+Building target: /home/administrator/Proximus/Base/Library/Linux/Gtest_x86_x64_MtD.lib
+Invoking: GCC Archiver
+ar -r  "/home/administrator/Proximus/Base/Library/Linux/Gtest_x86_x64_MtD.lib"  ./src/gtest-all.o  ./.metadata/.plugins/org.eclipse.cdt.make.core/specs.o   
+ar: creating /home/administrator/Proximus/Base/Library/Linux/Gtest_x86_x64_MtD.lib
+Finished building target: /home/administrator/Proximus/Base/Library/Linux/Gtest_x86_x64_MtD.lib
+ 
+make: warning:  Clock skew detected.  Your build may be incomplete.

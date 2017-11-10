@@ -89,15 +89,15 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\Todo\svnRoot\David\MyDynLib\MyDynLib;C:\Users\Administrator\Desktop\Todo\svnRoot\Shared\Gtest\include;C:\Users\Administrator\Desktop\Todo\svnRoot\Shared\Gtest\src;C:\Users\Administrator\Desktop\Todo\svnRoot\Shared\jpeg-9b;C:\Users\Administrator\Desktop\Todo\svnRoot\Shared\Gtest\test;C:\Users\Administrator\Desktop\Todo\svnRoot\Shared\Gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\MyDynLib\MyDynLib;..\..\Include\Gtest\include;..\..\Include\Gtest\src;..\..\Include\jpeg-9b;..\..\Include\Gtest\test;..\..\Include\Gtest;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <DisableSpecificWarnings>4996;%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>DebugFull</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\Administrator\Desktop\Todo\svnRoot\David\ExecDynLib\Debug;C:\Users\Administrator\Desktop\Todo\svnRoot\Shared\Bin;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>MyDynLib.lib;Gtest_x86_x32_MdD.lib;LibJpeg_x86_x32_MdD.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>..\..\Include\Gtest;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <OutputFile>$(OutDir)$(TargetName)$(TargetExt)</OutputFile>
+      <AdditionalDependencies>Gtest_x86_x64_MdD.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <PostBuildEvent>
       <Command>xcopy /y /d "..\..\MyDynLib\$(IntDir)MyDynLib.dll" "$(OutDir)"</Command>
@@ -111,12 +111,12 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
-      <AdditionalIncludeDirectories>C:\Users\Administrator\Desktop\Todo\svnRoot\David\MyDynLib\MyDynLib;C:\Users\Administrator\Desktop\Todo\svnRoot\Shared\Gtest\include;C:\Users\Administrator\Desktop\Todo\svn_repos\trunk\jpeg-9b;C:\Users\Administrator\Desktop\Todo\svnRoot\Shared\Gtest;C:\Users\Administrator\Desktop\Todo\svn_repos\trunk\crossguid-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\..\MyDynLib\MyDynLib;..\..\Include\Gtest\include;..\..\Include\jpeg-9b;..\..\Include\Gtest;..\..\Include\crossguid-master;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <AdditionalLibraryDirectories>C:\Users\Administrator\Desktop\Todo\svnRoot\David\ExecDynLib\x64\Debug;C:\Users\Administrator\Desktop\Todo\svnRoot\Shared\Bin;C:\Users\Administrator\Desktop\Todo\svn_repos\trunk\jpeg-9b\x64\Release;C:\Users\Administrator\Desktop\Todo\svn_repos\trunk\crossguid-master\build\x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalLibraryDirectories>..\x64\Debug;..\..\Include\Gtest;..\..\Include\jpeg-9b\x64\Release;..\..\Include\crossguid-master\build\x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalDependencies>MyDynLib.lib;Gtest_x86_x64_MdD.lib;jpeg.lib;xg.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
